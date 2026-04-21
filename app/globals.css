@@ -1,26 +1,61 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-error: #ba1a1a;
+  --color-surface-container-high: #ffe2de;
+  --color-tertiary-fixed: #ffe088;
+  --color-tertiary-fixed-dim: #e9c349;
+  --color-on-tertiary-fixed: #241a00;
+  --color-on-primary-container: #5b0030;
+  --color-on-primary-fixed: #3d0024;
+  --color-outline-variant: #d9c0c8;
+  --color-surface-container-highest: #ffdad6;
+  --color-on-tertiary-fixed-variant: #574500;
+  --color-surface-dim: #ffcfc9;
+  --color-secondary-fixed-dim: #ecbaba;
+  --color-on-secondary-fixed: #2f1314;
+  --color-on-tertiary: #ffffff;
+  --color-on-error: #ffffff;
+  --color-tertiary-container: #cca830;
+  --color-primary-container: #ff5fa2;
+  --color-on-primary-fixed-variant: #7a003d;
+  --color-error-container: #ffdad6;
+  --color-inverse-on-surface: #ffedea;
+  --color-on-primary: #ffffff;
+  --color-primary: #ff2479;
+  --color-surface-container: #ffe9e6;
+  --color-on-secondary: #ffffff;
+  --color-inverse-surface: #4b2622;
+  --color-surface-bright: #fff8f7;
+  --color-primary-fixed-dim: #ff8fbe;
+  --color-secondary-container: #fecbcb;
+  --color-outline: #867279;
+  --color-on-surface-variant: #534249;
+  --color-tertiary: #735c00;
+  --color-surface-variant: #ffdad6;
+  --color-on-error-container: #93000a;
+  --color-primary-fixed: #ffd3e5;
+  --color-secondary-fixed: #ffdad9;
+  --color-surface-tint: #ff2479;
+  --color-inverse-primary: #ff9ac5;
+  --color-secondary: #7b5455;
+  --color-on-background: #32120f;
+  --color-on-secondary-container: #7a5354;
+  --color-surface-container-lowest: #ffffff;
+  --color-background: #fff8f7;
+  --color-surface-container-low: #fff0ee;
+  --color-on-secondary-fixed-variant: #613d3e;
+  --color-on-surface: #32120f;
+  --color-on-tertiary-container: #4f3e00;
+  --color-surface: #fff8f7;
+
+  --font-headline: "Noto Serif", serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
+  --font-label: "Plus Jakarta Sans", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+body { font-family: var(--font-body); background-color: var(--color-background); color: var(--color-on-background); }
+.material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+.hero-gradient { background: linear-gradient(135deg, #ff2479 0%, #ff5fa2 100%); }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+h1, h2, h3, .font-headline { font-family: var(--font-headline); }
