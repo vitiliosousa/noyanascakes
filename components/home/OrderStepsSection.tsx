@@ -1,8 +1,12 @@
+import Link from "next/link";
+
 type OrderStepsSectionProps = {
   whatsappLink: string;
 };
 
-export default function OrderStepsSection({ whatsappLink }: OrderStepsSectionProps) {
+export default function OrderStepsSection({
+  whatsappLink,
+}: OrderStepsSectionProps) {
   return (
     <section className="py-20 md:py-32 bg-primary text-white overflow-hidden relative">
       <div className="max-w-7xl mx-auto px-6 md:px-8 relative z-10">
@@ -11,7 +15,7 @@ export default function OrderStepsSection({ whatsappLink }: OrderStepsSectionPro
             Processo
           </span>
           <h2 className="font-headline text-4xl md:text-5xl lg:text-6xl mt-4 md:mt-6">
-            Simplicidade em cada etapa
+            Como fazer a sua encomenda
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16">
@@ -21,11 +25,11 @@ export default function OrderStepsSection({ whatsappLink }: OrderStepsSectionPro
             </span>
             <div className="relative z-10">
               <h3 className="text-xl md:text-2xl font-headline font-bold mb-3 md:mb-4">
-                Escolha o seu Bolo
+                Escolha o que deseja
               </h3>
               <p className="text-white/70 font-body text-sm md:text-base">
-                Navegue pela nossa colecao ou defina o seu proprio perfil de
-                sabor personalizado e estetica de design.
+                Veja os exemplos no site ou diga exatamente o que pretende:
+                bolo, doces ou salgados.
               </p>
             </div>
           </div>
@@ -35,11 +39,11 @@ export default function OrderStepsSection({ whatsappLink }: OrderStepsSectionPro
             </span>
             <div className="relative z-10">
               <h3 className="text-xl md:text-2xl font-headline font-bold mb-3 md:mb-4">
-                Contacto via WhatsApp
+                Fale pelo WhatsApp
               </h3>
               <p className="text-white/70 font-body text-sm md:text-base">
-                Clique em qualquer botao para iniciar uma conversa direta com a
-                nossa equipa para um orcamento personalizado.
+                Envie uma mensagem com o seu pedido para receber preço e
+                disponibilidade.
               </p>
             </div>
           </div>
@@ -49,21 +53,23 @@ export default function OrderStepsSection({ whatsappLink }: OrderStepsSectionPro
             </span>
             <div className="relative z-10">
               <h3 className="text-xl md:text-2xl font-headline font-bold mb-3 md:mb-4">
-                Finalize os Detalhes
+                Confirme a encomenda
               </h3>
               <p className="text-white/70 font-body text-sm md:text-base">
-                Confirme sabores, data de entrega e deposito para garantir o seu
-                lugar na nossa cozinha boutique.
+                Combine os detalhes, data de entrega e finalize a sua encomenda.
               </p>
             </div>
           </div>
         </div>
         <div className="mt-16 md:mt-24 text-center">
-          <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-            <button className="w-full sm:w-auto bg-tertiary text-on-tertiary px-8 md:px-12 py-5 md:py-6 rounded-full text-base md:text-lg font-bold uppercase tracking-widest hover:bg-tertiary-container transition-all shadow-2xl">
-              Encomendar Agora
-            </button>
-          </a>
+          <Link
+            href={whatsappLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full sm:w-auto text-center bg-surface-container-high text-on-surface px-6 py-4 rounded-full font-bold uppercase tracking-widest hover:bg-surface-container-highest transition-all duration-300 text-sm active:scale-95"
+          >
+            Fazer Encomenda no WhatsApp
+          </Link>
         </div>
       </div>
       <div className="hidden lg:block absolute top-0 right-0 w-1/3 h-full bg-white/5 skew-x-12 transform origin-top"></div>

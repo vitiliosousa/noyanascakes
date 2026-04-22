@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -23,13 +22,12 @@ export default function Footer() {
             </Link>
           </div>
           <p className="font-serif text-sm leading-relaxed text-[#32120f] dark:text-[#fff8f7]/70">
-            Arte em Maputo. Criamos arte comestível que torna os seus momentos
-            especiais inesquecíveis.
+            Bolos, doces e salgados feitos por encomenda.
           </p>
         </div>
         <div>
           <h4 className="font-label font-bold text-primary uppercase tracking-widest text-xs mb-4 md:mb-6">
-            Explorar
+            Links
           </h4>
           <ul className="space-y-3 md:space-y-4">
             <li>
@@ -114,7 +112,7 @@ export default function Footer() {
       </div>
       <div className="max-w-7xl mx-auto px-6 md:px-10 pt-10 md:pt-16 border-t border-stone-200 dark:border-[#FF2479]/20 mt-12 md:mt-16 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
         <p className="font-serif text-xs text-stone-500 dark:text-[#fff8f7]/50">
-          © {new Date().getFullYear()} Noyana's Cakes. All Rights Reserved.
+          © {new Date().getFullYear()} Noyana's Cakes. Todos os direitos reservados.
         </p>
       </div>
     </footer>

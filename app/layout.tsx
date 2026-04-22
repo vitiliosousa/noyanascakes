@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Noto_Serif, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const notoSerif = Noto_Serif({
   variable: "--font-noto-serif",
@@ -15,7 +17,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Noyana's Cakes - The Artisanal Gallery",
+  title: "Noyana's Cakes",
   description: "Curated editorial experience that treats each cake as a piece of fine art.",
 };
 
@@ -37,7 +39,14 @@ export default function RootLayout({
       <head>
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet" />
       </head>
-      <body className="min-h-full flex flex-col selection:bg-primary-fixed selection:text-on-primary-fixed">{children}</body>
+      <body
+        suppressHydrationWarning
+        className="min-h-full flex flex-col selection:bg-primary-fixed selection:text-on-primary-fixed"
+      >
+        <Navbar/>
+        {children}
+        <Footer/>
+      </body>
     </html>
   );
 }
