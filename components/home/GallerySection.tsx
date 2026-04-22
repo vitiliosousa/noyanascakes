@@ -22,8 +22,6 @@ export default function GallerySection() {
         <div className="flex items-center justify-center mt-10">
           <Link
             href={"/galeria"}
-            target="_blank"
-            rel="noopener noreferrer"
             className="bg-linear-to-br from-[#FF2479] to-[#ff6aa6] text-white text-center px-6 py-4 text-sm rounded-full font-bold uppercase tracking-widest gap-3 hover:shadow-2xl"
           >
             Ver Galeria

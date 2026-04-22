@@ -13,28 +13,71 @@ export default function GalleryHero() {
           minucioso, onde estética e sabor convergem para dar origem a
           experiências memoráveis e profundamente sensoriais.
         </p>
-        <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center md:justify-start">
-          <div className="bg-surface-container-low px-4 py-3 md:py-2 rounded-lg flex items-center justify-center gap-2 shadow-sm">
-            <span
-              className="material-symbols-outlined text-tertiary"
-              style={{ fontVariationSettings: "'FILL' 1" }}
-            >
-              workspace_premium
-            </span>
-            <span className="text-sm font-semibold text-on-secondary-container">
-              Design Personalizado
-            </span>
+        <div className="space-y-6 md:space-y-8 text-left">
+          <div className="group">
+            <div className="flex items-center gap-3 mb-2">
+              <span className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                <span className="material-symbols-outlined text-sm">
+                  auto_awesome
+                </span>
+              </span>
+              <h3 className="font-bold text-on-surface text-lg">
+                Qualidade em cada detalhe
+              </h3>
+            </div>
+            <p className="text-sm text-on-surface-variant leading-relaxed pl-11">
+              Cada bolo é preparado com atenção, garantindo sabor, textura e uma
+              apresentação cuidada.
+            </p>
           </div>
-          <div className="bg-surface-container-low px-4 py-3 md:py-2 rounded-lg flex items-center justify-center gap-2 shadow-sm">
-            <span
-              className="material-symbols-outlined text-tertiary"
-              style={{ fontVariationSettings: "'FILL' 1" }}
-            >
-              favorite
-            </span>
-            <span className="text-sm font-semibold text-on-secondary-container">
-              Feito com Amor
-            </span>
+
+          <div className="group">
+            <div className="flex items-center gap-3 mb-2">
+              <span className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                <span className="material-symbols-outlined text-sm">
+                  handshake
+                </span>
+              </span>
+              <h3 className="font-bold text-on-surface text-lg">
+                Compromisso com o cliente
+              </h3>
+            </div>
+            <p className="text-sm text-on-surface-variant leading-relaxed pl-11">
+              Trabalhamos com responsabilidade e respeito, cumprindo cada
+              encomenda com dedicação.
+            </p>
+          </div>
+          <div className="group">
+            <div className="flex items-center gap-3 mb-2">
+              <span className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                <span className="material-symbols-outlined text-sm">
+                  volunteer_activism
+                </span>
+              </span>
+              <h3 className="font-bold text-on-surface text-lg">
+                Feito com paixão
+              </h3>
+            </div>
+            <p className="text-sm text-on-surface-variant leading-relaxed pl-11">
+              Mais do que bolos, criamos experiências que tornam cada momento
+              especial.
+            </p>
+          </div>
+          <div className="group">
+            <div className="flex items-center gap-3 mb-2">
+              <span className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                <span className="material-symbols-outlined text-sm">
+                  trending_up
+                </span>
+              </span>
+              <h3 className="font-bold text-on-surface text-lg">
+                Sempre a evoluir
+              </h3>
+            </div>
+            <p className="text-sm text-on-surface-variant leading-relaxed pl-11">
+              Estamos em constante crescimento, buscando melhorar cada vez mais
+              a qualidade dos nossos produtos e serviços.
+            </p>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 export const items = [
     {
-      src: "/aniversario.jpg",
+      src: "/bolo8.jpeg",
       alt: "Bolo de Aniversario",
       category: "Aniversario",
       title: "Celebracoes de Vida",
@@ -10,7 +10,7 @@ export const items = [
       heightClass: "h-100 md:h-150",
     },
     {
-      src: "/casamento.jpg",
+      src: "/casamento.jpeg",
       alt: "Bolo de Casamento",
       category: "Casamento",
       title: "O Sim Eterno",
@@ -19,7 +19,7 @@ export const items = [
       heightClass: "h-87.5 md:h-150",
     },
     {
-      src: "/personalizados.jpg",
+      src: "/bolo1.png",
       alt: "Bolo Personalizado",
       category: "Personalizados",
       title: "Esculturas Comestiveis",
