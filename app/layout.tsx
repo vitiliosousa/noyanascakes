@@ -1,8 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Noto_Serif, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 
 const notoSerif = Noto_Serif({
   variable: "--font-noto-serif",

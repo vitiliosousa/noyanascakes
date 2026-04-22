@@ -1,5 +1,5 @@
-import GalleryCard from "./GalleryCard";
-import { items } from "./items";
+import GalleryCard from "../ui/GalleryCard";
+import { items } from "@/data/items";
 import Link from "next/link";
 
 export default function GallerySection() {

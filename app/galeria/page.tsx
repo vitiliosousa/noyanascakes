@@ -1,5 +1,5 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 import GalleryHero from "@/components/gallery/GalleryHero";
 import CollectionsSection from "@/components/gallery/CollectionsSection";
 import GalleryCTA from "@/components/gallery/GalleryCTA";

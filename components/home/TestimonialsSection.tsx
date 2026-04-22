@@ -1,5 +1,5 @@
-import TestimonialCard from "./TestimonialCard";
-import { testimonials } from "./testemonials";
+import TestimonialCard from "../ui/TestimonialCard";
+import { testimonials } from "@/data/testimonials";
 
 export default function TestimonialsSection() {
   return (

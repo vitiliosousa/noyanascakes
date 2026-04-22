@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { CAKES } from "./cakes";
+import { CAKES } from "@/data/cakes";
 
 export default function CollectionsSection() {
   return (
