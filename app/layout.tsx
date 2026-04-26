@@ -18,7 +18,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: "Noyana's Cakes",
-  description: "Curated editorial experience that treats each cake as a piece of fine art.",
+  description: "Na Noyana's Cakes, transformamos ingredientes em experiências inesquecíveis. Bolos feitos com amor e atenção a cada detalhe, por encomenda.",
 };
 
 export const viewport: Viewport = {
