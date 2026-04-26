@@ -56,7 +56,7 @@ export default function ContactSection() {
           <Image
             alt="Maputo"
             className="w-full h-full object-cover"
-            src="/contactus.jpg"
+            src="/contacus.png"
             width={1000}
             height={1000}
           />

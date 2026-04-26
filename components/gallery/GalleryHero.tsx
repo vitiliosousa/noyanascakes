@@ -86,7 +86,7 @@ export default function GalleryHero() {
           <Image
             alt="Destaque Galeria"
             className="w-full h-full object-cover"
-            src="/about.jpg"
+            src="/about.png"
             width={1000}
             height={1000}
             priority

@@ -123,7 +123,7 @@ export default function Navbar() {
 
   return (
     // h-16/h-20 garante que o conteúdo abaixo use pt-16/pt-20 sem ser ocultado
-    <nav className="fixed top-0 left-0 w-full z-100 bg-[#fff8f7]/90 backdrop-blur-xl transition-all duration-300 h-16 md:h-20">
+    <nav className="fixed top-0 left-0 w-full z-100 bg-[#fff8f7]/90 dark:bg-[#32120f] backdrop-blur-xl transition-all duration-300 h-16 md:h-20">
       <div className="max-w-7xl mx-auto flex justify-between items-center w-full h-full px-4 md:px-8">
         {/* Logo */}
         <Link href="/" aria-label="Ir para página inicial">

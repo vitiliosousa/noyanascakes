@@ -9,7 +9,7 @@ export default function AboutSection() {
             <Image
               alt="Referencia da Marca"
               className="rounded-xl w-full h-87.5 sm:h-112.5 md:h-150 object-cover"
-              src="/about.jpg"
+              src="/about.png"
               width={1000}
               height={1000}
             />
@@ -41,7 +41,7 @@ export default function AboutSection() {
           <div className="mt-10 md:mt-12 grid grid-cols-2 gap-4 md:gap-8 text-center lg:text-left">
             <div>
               <span className="block text-3xl md:text-4xl font-headline font-bold text-primary">
-                +200
+                +400
               </span>
               <span className="text-[10px] md:text-sm font-label uppercase tracking-widest text-on-tertiary-fixed-variant">
                 Encomendas Realizadas
