@@ -8,7 +8,7 @@ export default function GallerySection() {
       <div className="max-w-7xl mx-auto px-6 md:px-8">
         <div className="mb-12 md:mb-20 text-center md:text-left">
           <span className="text-tertiary font-bold uppercase tracking-[0.3em] text-xs md:text-sm">
-            Nossos Produtos
+            Nossos Produtos 
           </span>
           <h2 className="font-headline text-4xl md:text-5xl lg:text-6xl text-on-surface mt-3 md:mt-4">
             Bolos, Doces e Salgados

@@ -1,6 +1,6 @@
 export const items = [
     {
-      src: "/bolo8.jpeg",
+      src: "/aniversario.jpeg",
       alt: "Bolo de Aniversario",
       category: "Aniversario",
       title: "Celebracoes de Vida",
@@ -10,7 +10,7 @@ export const items = [
       heightClass: "h-100 md:h-150",
     },
     {
-      src: "/casamento.jpeg",
+      src: "/casam.jpeg",
       alt: "Bolo de Casamento",
       category: "Casamento",
       title: "O Sim Eterno",
